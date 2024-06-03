@@ -30,10 +30,14 @@
 	"categories": [
 		"Themes"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Tefached95/e-ink-inverted"
+	},
 	"contributes": {
 		"themes": [
 			{
-				"label": "e-ink inverted",
+				"label": "E-Ink Inverted",
 				"uiTheme": "vs",
 				"path": "./themes/e-ink-inverted.json"
 			}
