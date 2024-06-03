@@ -1,0 +1,45 @@
+{
+	"name": "e-ink-inverted",
+	"version": "1.0.0",
+	"description": "An e-ink like theme with the colors inverted so you don't get flashbanged. Based on E-Ink 2 theme by Mufanzaa.",
+	"scripts": {
+		"make": "vsce publish",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"e-ink",
+		"high",
+		"contrast",
+		"black",
+		"and",
+		"white",
+		"white",
+		"black",
+		"gray",
+		"electronic",
+		"ink"
+	],
+	"author": {
+		"name": "Tefached95"
+	},
+	"license": "MIT",
+	"publisher": "Tefached95",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "e-ink inverted",
+				"uiTheme": "vs",
+				"path": "./themes/e-ink-inverted.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^1.81.1"
+	}
+}
